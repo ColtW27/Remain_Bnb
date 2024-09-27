@@ -1,0 +1,10 @@
+.nav-container {
+   min-height: 80px;
+}
+
+.logo-link {
+  svg {
+    color: #ff385c;
+    // color: $airbnbLogo; sassc error not recognizing the variable, temp fix above
+  }
+}
