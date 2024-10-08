@@ -1,1 +1,8 @@
-$airbnbLogo: #ff385c; 
+$airbnbLogo: #ff385c;
+
+
+// Below are the linear gradients used in the submit button of the airbnb login form. Gradients do not seem to function.
+$linaria-theme_palette-bg-secondary-core: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+$linaria-theme_palette-bg-secondary-core-rtl: linear-gradient(to left, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+$linaria-theme_palette-bg-secondary-plus: linear-gradient(to right, #BD1E59 0%, #92174D 50%, #861453 100%);
+
