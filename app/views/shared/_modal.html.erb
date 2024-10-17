@@ -3,20 +3,26 @@
     id='auth-modal-wrapper'
 >
     <div
-        class="relative p-4 w-full max-w-md max-h-full"
+        class=" relative p-4 w-full max-w-md max-h-full"
      >
         <!-- Modal content -->
-        <div class=" hidden relative bg-white rounded-lg shadow"
-        data-controller="modal"
-        id="authentication-modal"
-        tabindex="-1"
-        role="auth-modal"
-        data-transition-enter="transition ease-out duration-100"
-        data-transition-enter-start="transform opacity-0 scale-95"
-        data-transition-enter-end="transform opacity-100 scale-100"
-        data-transition-leave="transition ease-in duration-75"
-        data-transition-leave-start="transform opacity-100 scale-100"
-        data-transition-leave-end="transform opacity-0 scale-95">
+        <div 
+            class="hidden relative bg-white rounded-lg shadow"
+            data-controller="modal"
+            id="authentication-modal"
+            tabindex="-1"
+            role="auth-modal"
+            data-transition-enter="transition ease-out duration-100"
+            data-transition-enter-start="transform opacity-0 scale-95"
+            data-transition-enter-end="transform opacity-100 scale-100"
+            data-transition-leave="transition ease-in duration-75"
+            data-transition-leave-start="transform opacity-100 scale-100"
+            data-transition-leave-end="transform opacity-0 scale-95"
+        >
+            <div
+            class="hidden" id='modal-trigger' data-action='click->#showModal'
+            > 
+        </div>
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 class="text-xl font-semibold text-gray-900 ">
